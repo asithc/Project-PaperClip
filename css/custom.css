@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-/* Table of Content 
+/* Table of Content
 [Master Stylesheet]
 
 Project:		paperclip
@@ -28,54 +28,54 @@ Sidebar heading:	font:20px/20px 'Montserrat', sans-serif;
 
 
 
-/** Table of Content 
+/** Table of Content
 -	GENERIC CSS						LINE		000			-		000
 - 	WRAPPER    	  					LENE 		000  		-		000
--	HEADER							LINE		000			-		000	
+-	HEADER							LINE		000			-		000
 -	BANNER							LINE		000			-		000
--	WHY CHOOSE US SECTION			LINE		000			-		000	
--	PROJECTS SECTION				LINE		000			-		000	
--	URGENT DONATION SECTION 		LINE		000			-		000	
--	DONATION FORM ROW 				LINE		000			-		000	
--	POST AND NEWS ROW 				LINE		000			-		000	
--	ATTEND EVENTS SECTION			LINE		000			-		000	
--	TESTIMONIALS AND TEAM SECTION	LINE		000			-		000	
--	EXECUTIVE MESSAGE SECTION 		LINE		000			-		000	
--	SUPPORTERS SECTION				LINE		000			-		000	
--	FOOTER							LINE		000			-		000	
--	NEWSLETTER 						LINE		000			-		000	
--	FOOTER SECTION 1				LINE		000			-		000	
--	FOOTER SECTION 2				LINE		000			-		000	
--	FOOTER SECTION 3				LINE		000			-		000	
--	HEADER STYLE 2					LINE		000			-		000	
--	BANNER STYLE 2					LINE		000			-		000	
--	FEATURES SECTION 				LINE		000			-		000	
--	WELCOME TAB SECTION 			LINE		000			-		000	
--	CALL TO ACTION SECTION			LINE		000			-		000	
--	TIMELINE SECTION 				LINE		000			-		000	
--	RECENT PROJECTS					LINE		000			-		000	
--	DONATION STYLE 2 				LINE		000			-		000	
--	UPCOMING EVENTS SECTION 		LINE		000			-		000	
--	RECENT POST STYLE 2				LINE		000			-		000	
--	TESTIMONIALS STYLE 2			LINE		000			-		000	
--	TEAM STYLE 2 					LINE		000			-		000	
--	NAVIGATION STYLE 3				LINE		000			-		000	
--	BANNER STYLE 3 					LINE		000			-		000	
--	CHOOSE ECO SECTION				LINE		000			-		000	
+-	WHY CHOOSE US SECTION			LINE		000			-		000
+-	PROJECTS SECTION				LINE		000			-		000
+-	URGENT DONATION SECTION 		LINE		000			-		000
+-	DONATION FORM ROW 				LINE		000			-		000
+-	POST AND NEWS ROW 				LINE		000			-		000
+-	ATTEND EVENTS SECTION			LINE		000			-		000
+-	TESTIMONIALS AND TEAM SECTION	LINE		000			-		000
+-	EXECUTIVE MESSAGE SECTION 		LINE		000			-		000
+-	SUPPORTERS SECTION				LINE		000			-		000
+-	FOOTER							LINE		000			-		000
+-	NEWSLETTER 						LINE		000			-		000
+-	FOOTER SECTION 1				LINE		000			-		000
+-	FOOTER SECTION 2				LINE		000			-		000
+-	FOOTER SECTION 3				LINE		000			-		000
+-	HEADER STYLE 2					LINE		000			-		000
+-	BANNER STYLE 2					LINE		000			-		000
+-	FEATURES SECTION 				LINE		000			-		000
+-	WELCOME TAB SECTION 			LINE		000			-		000
+-	CALL TO ACTION SECTION			LINE		000			-		000
+-	TIMELINE SECTION 				LINE		000			-		000
+-	RECENT PROJECTS					LINE		000			-		000
+-	DONATION STYLE 2 				LINE		000			-		000
+-	UPCOMING EVENTS SECTION 		LINE		000			-		000
+-	RECENT POST STYLE 2				LINE		000			-		000
+-	TESTIMONIALS STYLE 2			LINE		000			-		000
+-	TEAM STYLE 2 					LINE		000			-		000
+-	NAVIGATION STYLE 3				LINE		000			-		000
+-	BANNER STYLE 3 					LINE		000			-		000
+-	CHOOSE ECO SECTION				LINE		000			-		000
 -	CAUSES STYLE 2					LINE		000			-		000
--	INNER BANNER 					LINE		000			-		000	
--	GALLERY SECTION					LINE		000			-		000	
--	PAGINATION						LINE		000			-		000	
--	ERROR PAGE 						LINE		000			-		000	
--	COMING SOON PAGE 				LINE		000			-		000		
--	TEAM STYLE 1					LINE		000			-		000	
--	VOLUNTEER FORM 					LINE		000			-		000	
--	SIGNUP SECTION 					LINE		000			-		000	
--	CONTACT SECTION 				LINE		000			-		000	
--	GALLERY CLASSIC 				LINE		000			-		000	
--	SIDEBAR							LINE		000			-		000	
--	DONATION PAGE 					LINE		000			-		000	
--	ABOUT SECTION 					LINE		000			-		000	
+-	INNER BANNER 					LINE		000			-		000
+-	GALLERY SECTION					LINE		000			-		000
+-	PAGINATION						LINE		000			-		000
+-	ERROR PAGE 						LINE		000			-		000
+-	COMING SOON PAGE 				LINE		000			-		000
+-	TEAM STYLE 1					LINE		000			-		000
+-	VOLUNTEER FORM 					LINE		000			-		000
+-	SIGNUP SECTION 					LINE		000			-		000
+-	CONTACT SECTION 				LINE		000			-		000
+-	GALLERY CLASSIC 				LINE		000			-		000
+-	SIDEBAR							LINE		000			-		000
+-	DONATION PAGE 					LINE		000			-		000
+-	ABOUT SECTION 					LINE		000			-		000
 
 End of Table of Conten*/
 body {
@@ -4525,6 +4525,7 @@ strong.footer-logo {
 	height: 320px;
 	margin-bottom: 100px;
 }
+
 .inner-banner h1 {
 	line-height: 55px;
 	text-align: center;
@@ -4577,6 +4578,72 @@ strong.footer-logo {
 	content: "/ ";
 	padding: 0 5px;
 }
+
+			/***************************INNER BANNER 404 *********************************/
+
+			.inner-banner-404{
+				float: left;
+				width: 100%;
+				background: url(../images/inner-banner-404.png) no-repeat left top;
+				padding: 125px 0;
+				height: 320px;
+				margin-bottom: 100px;
+			}
+
+			.inner-banner-404 h1 {
+				line-height: 55px;
+				text-align: center;
+				color: #fff;
+				text-transform: uppercase;
+				text-shadow: 0 7px 5px rgba(0,0,0,0.45);
+				margin: 0 0 122px 0;
+			}
+			.inner-banner-404 .breadcrumb {
+				background-color: #fff;
+				border-radius: 0;
+				margin: 0 auto;
+				padding: 10px 25px;
+				border: 1px solid #ccc;
+				display: table;
+				text-align: center;
+				position: relative;
+			}
+			.inner-banner-404 .breadcrumb:before {
+				content: '';
+				position: absolute;
+				left: -23px;
+				bottom: 0;
+				width: 0;
+				height: 0;
+				border-top: 23px solid #e1e1e1;
+				border-left: 23px solid transparent;
+			}
+			.inner-banner-404 .breadcrumb:after {
+				content: '';
+				position: absolute;
+				right: -23px;
+				bottom: 0;
+				width: 0;
+				height: 0;
+				border-top: 23px solid #e1e1e1;
+				border-right: 23px solid transparent;
+			}
+			.inner-banner-404 .breadcrumb > li {
+				font: 400 14px 'Montserrat', sans-serif;
+				color: #444;
+			}
+			.inner-banner-404 .breadcrumb > li a {
+				text-decoration: none;
+				font: 400 14px 'Montserrat', sans-serif;
+				color: #444;
+			}
+			.inner-banner-404 .breadcrumb > li + li:before {
+				color: #444;
+				content: "/ ";
+				padding: 0 5px;
+			}
+			/***************************INNER BANNER 404 END *********************************/
+
 /******************************INNER BANNER END*******************************/
 
 /******************************************************GALLERY SECTION START*******************************************************/
