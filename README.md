@@ -14,5 +14,5 @@ Official WebSite Rewamp Theme for Sl2college.com
 <br />
 <p>also Please add <strong>google recaptcha validation</strong> for the Contact Form down in below.</p>
 
-(please update) 
+(please update) <br />
 *****************************************End**********************************************
