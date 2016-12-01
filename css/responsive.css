@@ -1084,7 +1084,7 @@ strong.logo {
 }
 .inner-banner .breadcrumb {
 	position: absolute;
-	bottom: -23px;
+	bottom: -104px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -2921,11 +2921,10 @@ strong.logo {
 }
 
  @media (min-width: 1700px) and (max-width: 1800px) {
-	
+
 	.footer-section-1::before {
 	width: 480px;
 	background:none;
-} 
-	 
- }
+}
 
+ }
