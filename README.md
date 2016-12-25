@@ -10,6 +10,6 @@ Official WebSite Rewamp Theme for Sl2college.com
 
 <br /> 
 Licence under
-<img scr="https://img.shields.io/aur/license/yaourt.svg">
+.. image:: https://img.shields.io/aur/license/yaourt.svg   :target: 
 <!--<p>We gonna use <a href="https://www.intercom.com">Intercom </a> as our feedback chat platform. if we need any. <br /> i already setup half of. So please continue the setup from this <a href= "https://app.intercom.io/invites/163c2d64-fefb-47e9-bd2c-377cf00bcbc7">link</a></p>--> <br />
 *****************************************End**********************************************
